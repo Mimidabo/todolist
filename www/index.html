@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>Ma Liste de Tâches</title>
+</head>
+<body>
+    <div data-role="page" id="mainPage">
+
+        <div data-role="header" data-position="fixed">
+            <h1>Todo List </h1>
+            <a href="#" id="btnReset" data-icon="refresh" class="ui-btn-right">Reset</a>
+        </div>
+
+        <div role="main" class="ui-content">
+
+            <div class="zone-listes">
+
+                <div class="bloc-section bloc-pending">
+                    <h2 class="section-title">En cours</h2>
+                    <ul id="pendingList" data-role="listview" data-inset="true"></ul>
+                </div>
+
+                <div class="bloc-section bloc-done">
+                    <h2 class="section-title">Terminées</h2>
+                    <ul id="doneList" data-role="listview" data-inset="true"></ul>
+                </div>
+
+            </div>
+
+            <p class="hint">← supprimer&nbsp;&nbsp;|&nbsp;&nbsp;déplacer →</p>
+
+        </div>
+
+        <div data-role="footer" data-position="fixed" class="footer-form">
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <input type="text" id="newTaskInput" placeholder="Nouvelle tâche...">
+                </div>
+                <div class="ui-block-b">
+                    <button id="btnAdd" type="button" data-icon="plus" data-iconpos="notext">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

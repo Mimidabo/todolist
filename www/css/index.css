@@ -1,0 +1,71 @@
+body {
+    background: #eef1f5;
+    color: #2c3e50;
+}
+
+/* En-tete principal */
+.ui-header h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Zone des listes */
+.zone-listes {
+    padding-bottom: 80px; /* pour ne pas etre cache par le footer fixe */
+}
+
+.bloc-section {
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.bloc-pending {
+    border-left: 5px solid #e67e22;
+}
+
+.bloc-done {
+    border-left: 5px solid #16a085;
+}
+
+.section-title {
+    margin: 5px 0 12px 5px;
+    font-size: 1.1em;
+    color: #34495e;
+}
+
+.bloc-pending .section-title {
+    color: #d35400;
+}
+
+.bloc-done .section-title {
+    color: #16a085;
+}
+
+/* Indication pour les swipes */
+.hint {
+    text-align: center;
+    font-size: 0.8em;
+    color: #95a5a6;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Formulaire en bas (style messagerie) */
+.footer-form {
+    background: #34495e !important;
+    padding: 8px;
+}
+
+.footer-form input {
+    margin: 0;
+}
+
+/* Tache barree dans la section Terminees */
+li.crossed .ui-link,
+li.crossed a {
+    text-decoration: line-through !important;
+    color: #999 !important;
+}
