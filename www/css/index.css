@@ -3,7 +3,7 @@ body {
     color: #2c3e50;
 }
 
-/* En-tete principal */
+
 .ui-header h1 {
     font-weight: 600;
     letter-spacing: 1px;
@@ -11,7 +11,7 @@ body {
 
 /* Zone des listes */
 .zone-listes {
-    padding-bottom: 80px; /* pour ne pas etre cache par le footer fixe */
+    padding-bottom: 80px; 
 }
 
 .bloc-section {
@@ -53,7 +53,7 @@ body {
     margin-top: 10px;
 }
 
-/* Formulaire en bas (style messagerie) */
+
 .footer-form {
     background: #34495e !important;
     padding: 8px;
@@ -63,7 +63,7 @@ body {
     margin: 0;
 }
 
-/* Tache barree dans la section Terminees */
+
 li.crossed .ui-link,
 li.crossed a {
     text-decoration: line-through !important;
